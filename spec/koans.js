@@ -63,7 +63,7 @@ describe('the JavaScript language', () => {
       }
 
       expect(typeof x).toBe('function');
-     //expect(typeof(xxx)).toBe('...');
+     expect(typeof(xxx)).toBe('undefined');
     });
 
     it('has arrays and they can contain anything inside', () => {
